@@ -1,0 +1,47 @@
+body {
+background-color: #f4f4f4;
+}
+
+/* Skip link */
+.skip {
+position: absolute;
+top: -50px;
+left: 10px;
+background-color: black;
+color: white;
+padding: 10px;
+z-index: 100;
+}
+
+.skip:focus {
+top: 10px;
+}
+
+/* Navigation */
+.navbar-nav {
+display: flex;
+gap: 15px;
+}
+
+/* Image */
+main img {
+border: 4px solid #333;
+}
+
+/* Cards */
+.card {
+height: 100%;
+}
+
+/* Hover effect */
+.nav-link:hover {
+color: #ffc107 !important;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+.navbar-nav {
+flex-direction: column;
+gap: 0;
+}
+}
